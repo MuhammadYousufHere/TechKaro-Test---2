@@ -1,0 +1,77 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+.message {
+	font-size: 1em;
+	font-weight: bolder;
+	font-family: 
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+body {
+    margin-top: 90px;
+	background-color: #a9d0da;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.one, .two, .three, .four {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#keyboard{
+	width: 500px ;
+	height: 260px !important;
+	background-color: #fff;
+	display: flex;
+}
+.space-btn {
+	font-family: 'Arvo', serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	background-image: url("images/space-bar-key.png");
+	width: 100px;
+	height: 50px;
+	padding-top: 8px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-transform: uppercase;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+ #keyboard {
+ 	display: grid;
+ }
+#screen {
+	width: 500px;
+	height: 100px;
+	background-color: #fff;
+	border-bottom: 2px solid #0000002b;
+	border-radius: 3px;
+}
+.button {
+	padding-top: 4px;
+	font-family: 'Arvo', serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	background-image: url("images/keyboard-key.png");
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        display: block;
+        margin-left: 89px;
+    }
+}
